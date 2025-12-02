@@ -22,7 +22,7 @@ More better solution can be found from the issue below, using `pyInitLibPath` an
 
 https://github.com/yglukhov/nimpy/issues/46
 
-for example on macOS (tests on interactive shell, inim):
+For example on macOS (tests on interactive shell, inim):
 
 ```bash
 $ pip install find_libpython
