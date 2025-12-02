@@ -16,13 +16,19 @@ $ ./main
 
 ## How to use different python other than default PATH one?
 
-For example, call `conda activate xxx` just before call `./main`.
+### Easy way
 
-More better solution can be found from the issue below, using `pyInitLibPath` and `pip install find_libpython` ( `python3 -c 'import find_libpython; print(find_libpython.find_libpython())'` ). But I didn't succeed especially on Windows.
+Call `conda activate xxx` just before call `./main`.
+
+### More better (strict) way
+
+Using `pyInitLibPath` and `pip install find_libpython` ( `python3 -c 'import find_libpython; print(find_libpython.find_libpython())'` ).
+
+But I haven't succeeded especially on Windows.
 
 https://github.com/yglukhov/nimpy/issues/46
 
-For example on macOS (tests on interactive shell, inim):
+Below is an example session on macOS (tests on interactive shell, inim):
 
 ```bash
 $ pip install find_libpython
@@ -41,3 +47,4 @@ nim> let sys = pyImport("sys")
 nim> sys.version
 # 3.12.10 | packaged by conda-forge | (main, Apr 10 2025, 22:21:36) [Clang 18.1.8 ] == type PyObject
 ```
+
