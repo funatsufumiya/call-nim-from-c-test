@@ -2,6 +2,8 @@
 
 Nimpy branch (call nimpy from C++)
 
+( see also [simple](https://github.com/funatsufumiya/call-nim-from-c-test/tree/simple) branch if you find simplest way without nimpy/python. )
+
 ## Usage (build)
 
 ```bash
