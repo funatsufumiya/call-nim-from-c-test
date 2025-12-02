@@ -8,3 +8,7 @@ $ gcc -o main -I. main.c -L. -ltest
 $ ./main
 # output: 15
 ```
+
+## How to use nimpy from C++
+
+check [nimpy](https://github.com/funatsufumiya/call-nim-from-c-test/tree/nimpy) branch!
