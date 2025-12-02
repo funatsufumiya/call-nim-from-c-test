@@ -3,5 +3,5 @@
 
 int main(){
     //NimMain();
-    printf("%d\n",nitest(7)); //ここでは例として 7
+    printf("%d\n", nitest(7));
 }
