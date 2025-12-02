@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc -o main.exe -I. main.c -L. -ltest
+gcc -o main -I. main.c -L. -ltest
