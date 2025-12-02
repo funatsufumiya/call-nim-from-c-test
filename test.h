@@ -1,3 +1,3 @@
 #pragma once
 
-int nitest(int a);
+const char* get_python_version();

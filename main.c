@@ -3,5 +3,5 @@
 
 int main(){
     //NimMain();
-    printf("%d\n", nitest(7));
+    printf("%s\n", get_python_version());
 }
