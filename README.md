@@ -16,6 +16,9 @@ $ ./main
 # 3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]
 ```
 
+> [!WARNING]
+> If you got `(null)` on `./main` output, python interop is **failed**. Please check below.
+
 ## How to use different python other than default PATH one?
 
 ### Easy way
@@ -49,4 +52,5 @@ nim> let sys = pyImport("sys")
 nim> sys.version
 # 3.12.10 | packaged by conda-forge | (main, Apr 10 2025, 22:21:36) [Clang 18.1.8 ] == type PyObject
 ```
+
 
