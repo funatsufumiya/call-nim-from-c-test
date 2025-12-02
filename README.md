@@ -13,3 +13,11 @@ $ gcc -o main -I. main.c -L. -ltest
 $ ./main
 # 3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]
 ```
+
+## How to use different python other than default PATH one?
+
+For example, call `conda activate xxx` just before call `./main`.
+
+More better solution can be found from the issue below, using `pyInitLibPath` and `pip install find_libpython` ( `python3 -c 'import find_libpython; print(find_libpython.find_libpython())'` ). But I didn't succeed especially on Windows.
+
+https://github.com/yglukhov/nimpy/issues/46
