@@ -1,5 +1,7 @@
 # call-nim-from-c-test
 
+Nimpy branch (call nimpy from C++)
+
 ## Usage (build)
 
 ```bash
