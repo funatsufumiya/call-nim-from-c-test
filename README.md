@@ -1,6 +1,6 @@
 # call-nim-from-c-test
 
-Nimpy branch (call nimpy from C/C++)
+Nimpy branch (call nimpy = Python on Nim from C/C++)
 
 ( see also [simple](https://github.com/funatsufumiya/call-nim-from-c-test/tree/simple) branch if you find simplest way without nimpy/python. )
 
@@ -57,6 +57,7 @@ nim> let sys = pyImport("sys")
 nim> sys.version
 # 3.12.10 | packaged by conda-forge | (main, Apr 10 2025, 22:21:36) [Clang 18.1.8 ] == type PyObject
 ```
+
 
 
 
